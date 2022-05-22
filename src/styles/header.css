@@ -1,0 +1,78 @@
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: rgb(122, 21, 21);
+    text-shadow: 0 0 0.2em rgba(0,0,0,1);
+  }
+
+.Title{
+    position: absolute;
+    top: 0%;
+    font-size: 80px;
+    margin-top: 0%;
+}
+
+.Title-smart{
+    position: absolute;
+    top: 0%;
+    font-size: 50px;
+    margin-top: 0%;
+}
+
+.Header-BG{
+    width: 100%;
+    height: 130vh;
+}
+
+
+.Odoshi-girl{
+    width: 50%;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.Odoshi-girl-middle{
+    width: 60%;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.Odoshi-girl-smart{
+    width: 70%;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.header-home{
+    padding: 0.5em;
+    color: rgb(35, 11, 23);
+}
+
+.header-ui{
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    font-size: 4vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}

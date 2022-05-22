@@ -1,0 +1,19 @@
+.gallery-container{
+    max-width: 90%;
+    position: relative;
+    left: 5%;
+}
+
+.gallery-img{
+    width: 50%;
+    position: relative;
+    left: 25%;
+}
+
+.gallery-explain{
+    font-size: 5vh;
+}
+
+.gallery-name{
+    font-size: 4vh;
+}
