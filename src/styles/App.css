@@ -43,3 +43,28 @@
     transform: rotate(360deg);
   }
 }
+
+.ui-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-ui{
+  display: flex;
+  position: fixed;
+  top: 0%;
+  font-size: 4vh;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  z-index:1000;
+}
+
+.header-ui-smart{
+  display: flex;
+  position: fixed;
+  top: 0%;
+  font-size: 4vh;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  z-index:1000;
+  display: none;
+}

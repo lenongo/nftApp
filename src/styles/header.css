@@ -7,28 +7,29 @@
     justify-content: center;
     font-size: calc(10px + 2vmin);
     color: rgb(122, 21, 21);
-    text-shadow: 0 0 0.2em rgba(0,0,0,1);
+    text-shadow: 0 0 0.3em rgb(255, 255, 255);
   }
 
 .Title{
     position: absolute;
-    top: 0%;
+    top: 50%;
     font-size: 80px;
     margin-top: 0%;
 }
 
 .Title-smart{
     position: absolute;
-    top: 0%;
+    top: 50%;
     font-size: 50px;
     margin-top: 0%;
 }
 
 .Title-very-smart{
     position: absolute;
-    top: 0%;
+    top: 50%;
     font-size: 35px;
     margin-top: 0%;
+    z-index: 100;
 }
 
 .Header-BG{
@@ -44,9 +45,9 @@
 
 
 .Odoshi-girl{
-    width: 50%;
+    height: 150vh;
     position: absolute;
-    top: 75%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
@@ -54,7 +55,7 @@
 }
 
 .Odoshi-girl-middle{
-    width: 60%;
+    height: 150vh;
     position: absolute;
     top: 70%;
     left: 50%;
@@ -64,7 +65,7 @@
 }
 
 .Odoshi-girl-smart{
-    width: 70%;
+    height: 130vh;
     position: absolute;
     top: 65%;
     left: 50%;
@@ -74,7 +75,7 @@
 }
 
 .Odoshi-girl-verysmart{
-    height: 70vh;
+    height: 110vh;
     position: absolute;
     top: 55%;
     left: 50%;
@@ -88,14 +89,3 @@
     color: rgb(35, 11, 23);
 }
 
-.header-ui{
-    display: flex;
-    flex-flow: column;
-    align-items: flex-start;
-    position: absolute;
-    top: 50%;
-    left: 10%;
-    font-size: 4vh;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
-}
