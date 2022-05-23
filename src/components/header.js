@@ -1,5 +1,5 @@
-import bg from '../public/background.jpeg';
-import bgsmart from '../public/bg-smart.jpeg';
+import bg from '../public/background.jpg';
+import bgsmart from '../public/bg-smart.jpg';
 import maingirl from '../public/odoshi-girl.png';
 import '../styles/header.css';
 import '../styles/App.css';
