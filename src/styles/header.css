@@ -15,6 +15,7 @@
     top: 50%;
     font-size: 80px;
     margin-top: 0%;
+    z-index: 100;
 }
 
 .Title-smart{
@@ -22,6 +23,7 @@
     top: 50%;
     font-size: 50px;
     margin-top: 0%;
+    z-index: 100;
 }
 
 .Title-very-smart{
@@ -65,9 +67,9 @@
 }
 
 .Odoshi-girl-smart{
-    height: 130vh;
+    height: 120vh;
     position: absolute;
-    top: 65%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
