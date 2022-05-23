@@ -24,10 +24,23 @@
     margin-top: 0%;
 }
 
+.Title-very-smart{
+    position: absolute;
+    top: 0%;
+    font-size: 35px;
+    margin-top: 0%;
+}
+
 .Header-BG{
     width: 100%;
     height: 130vh;
 }
+
+.Header-BG-smart{
+    width: 100%;
+    height: 100vh;
+}
+
 
 
 .Odoshi-girl{
@@ -54,6 +67,16 @@
     width: 70%;
     position: absolute;
     top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.Odoshi-girl-verysmart{
+    height: 70vh;
+    position: absolute;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);

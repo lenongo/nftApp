@@ -5,10 +5,13 @@ import Content from './components/content'
 import Team from './components/team.js';
 import Footer from './components/footer.js';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import ReactDOM from 'react-dom'
+import React from 'react'
 
 
 function App() {
   return (
+
     <div className="App">
       <BrowserRouter basename=''>
         <Routes>
@@ -22,7 +25,8 @@ function App() {
         </Routes>
       </BrowserRouter>
     </div>
+
   );
 }
 
-export default App;
+export default App
