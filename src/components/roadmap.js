@@ -9,43 +9,39 @@ import 'animate.css';
 export default function Roadmap() {
   const { ref, inView } = useInView({
     // オプション
-    rootMargin: '-50px', // ref要素が現れてから50px過ぎたら
+    rootMargin: '150px', // ref要素が現れてから50px過ぎたら
     triggerOnce: true, // 最初の一度だけ実行
   });
 
   return (
     <div className='roadmap-wraper'>
-      <div className='roadmap-container fadeUp' id='roadmap-container'>
-        <div ref={ref}>
-          {inView && (
-            <div
-              className="roadmap-content"
-            >
-              <h1 className='content1'>Roadmap</h1>
-              <h2 className='container 0%'>
-                <p className="Q2">
-                  2022 Q2: We create NFT for PfP such as right image. 
-                </p>
-                <img className='pfpgirl' src={Girl} alt="Girl"/>
-              </h2>
-              <h2 className='container 25%'>
-                <p className="Q3">
-                  2022 Q2: We create NFT for PfP such as right image. 
-                </p>
-                <img className='pfpgirl' src={Girl} alt="Girl"/>
-              </h2>
-              <h2 className='container 50%'>
-                <p className="Q4">
-                  2022 Q2: We create NFT for PfP such as right image. 
-                </p>
-                <img className='pfpgirl' src={Girl} alt="Girl"/>
-              </h2>
-              <h2 className='container 75%'>75</h2>
-              <h2 className='container 100%'>100</h2>
-            </div>
-          )}
-        </div>
+      <div className='roadmap-container' id='roadmap-container'>
+        <h1 className='content1 fadeUp'>Roadmap</h1>
+        <h2 className='container fadeUp 0%'>
+          <div ref={ref}>
+            {inView && (
+              <div
+                className="roadmap-content"
+              >
+                <div className='sentence-container'>
+                  <p className="sentence Q2">
+                    2022 Q2: We create NFT for PfP such as right image.
+                  </p>
+                  <p className="sentence Q3">
+                    2022 Q3: We'll create some 4-frame cartoon and Live2D contents.
+                  </p>
+                  <p className="sentence Q3">
+                    2022 Q4: Comming Soon...
+                    
+                  </p>
+                </div>
+                <img className='pfp 1' src={Girl} alt="Girl" />
+
+              </div>
+            )}
+          </div>
+        </h2>
       </div>
-    </div>
+    </div >
   )
 }
