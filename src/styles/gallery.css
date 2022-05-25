@@ -1,7 +1,8 @@
 .gallery-container{
-    max-width: 90%;
+    max-width: 80%;
     position: relative;
-    left: 5%;
+    left: 10%;
+    background-color: aliceblue;
 }
 
 .gallery-img{
@@ -11,9 +12,9 @@
 }
 
 .gallery-explain{
-    font-size: 5vh;
+    font-size: 7vh;
 }
 
 .gallery-name{
-    font-size: 4vh;
+    font-size: 6vh;
 }

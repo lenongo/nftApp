@@ -4,6 +4,7 @@ import maingirl from '../public/odoshi-girl2.png';
 import '../styles/header.css';
 import '../styles/App.css';
 import MediaQuery from "react-responsive";
+import '../styles/App.css';
 
 function Header() {
   return (

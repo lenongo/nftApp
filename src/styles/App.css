@@ -52,12 +52,18 @@
 
 .header-ui{
   display: flex;
+  align-items: center;
+  justify-content: center;
   position: fixed;
   top: 0%;
   font-size: 4vh;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   z-index:1000;
+  background-color: rgba(216, 90, 103, 0.773);
+  width: 100%;
+  font-family: 'Kaisei HarunoUmi', serif;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi:wght@400;700&display=swap');
 
 .header-ui-smart{
   display: flex;
@@ -67,4 +73,10 @@
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   z-index:1000;
   display: none;
+}
+
+.header-home-0{
+  position: absolute;
+  left: 5%;
+  color: black;
 }
