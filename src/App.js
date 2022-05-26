@@ -22,7 +22,6 @@ import PeopleAltIcon from '@mui/icons-material/PeopleAlt';
 import ImageIcon from '@mui/icons-material/Image';
 import logo from './public/logo.jpg';
 
-
 const Ui = () => {
   const [drawerOpen, setDrawerOpen] = React.useState(false);
   const handleDrawerToggle = () => {
