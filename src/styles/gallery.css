@@ -2,7 +2,12 @@
     max-width: 80%;
     position: relative;
     left: 10%;
+<<<<<<< HEAD
     background-color: rgba(197, 143, 152, 0.248);
+=======
+    background-color: rgba(250, 237, 237, 0.281);
+    border: solid;
+>>>>>>> 19c1fd5ef206c502c68d3922f988a23015016e6f
     border-width: 3px;
     border-color: black;
 }

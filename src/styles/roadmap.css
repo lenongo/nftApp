@@ -1,3 +1,24 @@
+.fadeUp {
+    animation-name: fadeUpAnime;/*アニメーションの定義名*/
+    animation-duration:2s;/*アニメーション変化時間 ※デフォルト*/
+    animation-fill-mode:forwards;/*アニメーションの開始と終了時の状態を指定*/
+
+    opacity:0;
+}
+
+@keyframes fadeUpAnime{
+    from {
+      opacity: 0;
+    transform: translateX(-100px);
+    }
+  
+    to {
+      opacity: 1;
+    transform: translateX(0);
+    }
+  }
+
+
 .roadmap-wraper{
     width: 100%;
     display: flex;
@@ -18,16 +39,22 @@
 .container{
     display: flex;
     width: 100%;
+<<<<<<< HEAD
     background-color: #62242418;
     min-height: 60vh;
+=======
+>>>>>>> 19c1fd5ef206c502c68d3922f988a23015016e6f
     align-items: center;
     justify-content: center;
 }
 
 .roadmap-content{
-    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+<<<<<<< HEAD
 .pfpgirl{
     max-height: 50vh;
     position: relative;
@@ -47,3 +74,21 @@
     text-align: left;
     margin-top: 10%;
 }
+=======
+.pfp{
+    height: 30vh;
+    margin: 5%;
+}
+
+.sentence{
+    margin: 5%;
+    text-align: left
+}
+
+.sentence-container{
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+>>>>>>> 19c1fd5ef206c502c68d3922f988a23015016e6f
