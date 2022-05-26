@@ -14,6 +14,7 @@ import BG6 from '../public/background.jpeg';
 import '../styles/team.css';
 import '../styles/App.css';
 
+
 const team = () => {
     return (
         <div className='team-container' id='team-container'>
