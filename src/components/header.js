@@ -27,7 +27,7 @@ function Header() {
       <MediaQuery query="(min-width: 1081px)">
         <img src={bg} className="Header-BG" alt="BackGround" />
         <img src={maingirl} className="Odoshi-girl" alt="Girl" />
-        <p className='Title'>Odoshi Project</p>
+        <p className='Title'>縅 Project</p>
       </MediaQuery>
     </header>
   );

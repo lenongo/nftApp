@@ -19,7 +19,7 @@
     display: flex;
     width: 100%;
     background-color: #62242418;
-    height: 60vh;
+    min-height: 60vh;
     align-items: center;
     justify-content: center;
 }
@@ -32,4 +32,18 @@
     max-height: 50vh;
     position: relative;
     margin-left: 5%;
+}
+
+.Q2{
+    text-align: left;
+}
+
+.Q3{
+    text-align: left;
+    margin-top: 10%;
+}
+
+.Q4{
+    text-align: left;
+    margin-top: 10%;
 }

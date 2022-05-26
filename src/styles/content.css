@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi:wght@400;700&display=swap');
+
+*{
+  font-family: 'Kaisei HarunoUmi', serif;
+  font-size: 2vh;
+}
+
 .fadeUp {
     animation-name: fadeUpAnime;/*アニメーションの定義名*/
     animation-duration:1s;/*アニメーション変化時間 ※デフォルト*/
@@ -35,9 +42,16 @@
 }
 
 .content1{
-
+  font-size: 5vh;
 }
 
 .content2{
+  font-size: 3vh;
+}
 
+.animate__animated{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
