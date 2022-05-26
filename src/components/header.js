@@ -4,6 +4,7 @@ import maingirl from '../public/odoshi-girl2.png';
 import '../styles/header.css';
 import '../styles/App.css';
 import MediaQuery from "react-responsive";
+import '../styles/App.css';
 
 function Header() {
   return (
@@ -26,7 +27,7 @@ function Header() {
       <MediaQuery query="(min-width: 1081px)">
         <img src={bg} className="Header-BG" alt="BackGround" />
         <img src={maingirl} className="Odoshi-girl" alt="Girl" />
-        <p className='Title'>Odoshi Project</p>
+        <p className='Title'>縅 Project</p>
       </MediaQuery>
     </header>
   );

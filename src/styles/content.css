@@ -1,14 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi:wght@400;700&display=swap');
+
+*{
+  font-family: 'Kaisei HarunoUmi', serif;
+  font-size: 2vh;
+}
+
+.fadeUp {
+    animation-name: fadeUpAnime;/*アニメーションの定義名*/
+    animation-duration:1s;/*アニメーション変化時間 ※デフォルト*/
+    animation-fill-mode:forwards;/*アニメーションの開始と終了時の状態を指定*/
+
+    opacity:0;
+}
+
+@keyframes fadeUpAnime{
+    from {
+      opacity: 0;
+    transform: translateX(-100px);
+    }
+  
+    to {
+      opacity: 1;
+    transform: translateX(0);
+    }
+  }
+
+.content-wraper{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .content-container{
-    background-color: rgb(230, 254, 254);
+    background-color: rgb(241, 184, 184);
     width: 80%;
     position: relative;
-    left: 10%;
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    border: double 5px #ffdddd4a;
 }
 
 .content1{
-
+  font-size: 5vh;
 }
 
 .content2{
+  font-size: 3vh;
+}
 
+.animate__animated{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }

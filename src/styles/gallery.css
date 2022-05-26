@@ -1,7 +1,10 @@
 .gallery-container{
-    max-width: 90%;
+    max-width: 80%;
     position: relative;
-    left: 5%;
+    left: 10%;
+    background-color: rgba(197, 143, 152, 0.248);
+    border-width: 3px;
+    border-color: black;
 }
 
 .gallery-img{
@@ -11,9 +14,9 @@
 }
 
 .gallery-explain{
-    font-size: 5vh;
+    font-size: 7vh;
 }
 
 .gallery-name{
-    font-size: 4vh;
+    font-size: 6vh;
 }
