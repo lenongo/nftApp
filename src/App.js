@@ -27,48 +27,51 @@ const Ui = () => {
   const handleDrawerToggle = () => {
     setDrawerOpen(!drawerOpen); // Drawer の開閉状態を反転
   };
-  
+
   return (
     <div className='ui-container'>
       <MediaQuery query="(max-width: 780px)">
-        <Drawer variant="temporary" open={drawerOpen} onClose={handleDrawerToggle}>
-          <List>
-            <ListItem>
-              <ListItemIcon>
-                <HomeIcon />
-              </ListItemIcon>
-              <ListItemText>
-                <AnchorLink style={{ textDecoration: 'none' }} href='#App-header' className='header-home 2'>Home</AnchorLink>
-              </ListItemText>
-            </ListItem>
-            <ListItem>
-              <ListItemIcon>
-                <HelpIcon />
-              </ListItemIcon>
-              <AnchorLink style={{ textDecoration: 'none' }} href='#content-container' className='header-home 2'>Odoshi PJ</AnchorLink>
-            </ListItem>
-            <ListItem>
-              <ListItemIcon>
-                <ImageIcon />
-              </ListItemIcon>
-              <AnchorLink style={{ textDecoration: 'none' }} href='#gallery-container' className='header-home 3'>NFT</AnchorLink>
-            </ListItem>
-            <ListItem>
-              <ListItemIcon>
-                <PeopleAltIcon />
-              </ListItemIcon>
-              <AnchorLink style={{ textDecoration: 'none' }} href='#team-container' className='header-home 4'>Our Team</AnchorLink>
-            </ListItem>
-          </List>
-        </Drawer>
         <ui className="header-ui-smart">
+          <AnchorLink style={{ textDecoration: 'none' }} href='#App-header' className='header-home-1'>
+            <img className='Logo' src={logo} alt="logo" />
+          </AnchorLink>
+          <Drawer variant="temporary" open={drawerOpen} onClose={handleDrawerToggle}>
+            <List>
+              <ListItem>
+                <ListItemIcon>
+                  <HomeIcon />
+                </ListItemIcon>
+                <ListItemText>
+                  <AnchorLink style={{ textDecoration: 'none' }} href='#App-header' className='header-home 2'>Home</AnchorLink>
+                </ListItemText>
+              </ListItem>
+              <ListItem>
+                <ListItemIcon>
+                  <HelpIcon />
+                </ListItemIcon>
+                <AnchorLink style={{ textDecoration: 'none' }} href='#content-container' className='header-home 2'>Odoshi PJ</AnchorLink>
+              </ListItem>
+              <ListItem>
+                <ListItemIcon>
+                  <ImageIcon />
+                </ListItemIcon>
+                <AnchorLink style={{ textDecoration: 'none' }} href='#gallery-container' className='header-home 3'>NFT</AnchorLink>
+              </ListItem>
+              <ListItem>
+                <ListItemIcon>
+                  <PeopleAltIcon />
+                </ListItemIcon>
+                <AnchorLink style={{ textDecoration: 'none' }} href='#team-container' className='header-home 4'>Our Team</AnchorLink>
+              </ListItem>
+            </List>
+          </Drawer>
           <MenuIcon fontSize="large" onClick={handleDrawerToggle} />
         </ui>
       </MediaQuery>
       <MediaQuery query="(min-width: 781px)">
         <ui className="header-ui">
           <AnchorLink style={{ textDecoration: 'none' }} href='#App-header' className='header-home-0'>
-            <img className='Logo' src={logo} alt="logo"/>
+            <img className='Logo' src={logo} alt="logo" />
           </AnchorLink>
           <AnchorLink style={{ textDecoration: 'none' }} href='#App-header' className='header-home 1'>Home</AnchorLink>
           <AnchorLink style={{ textDecoration: 'none' }} href='#content-container' className='header-home 2'>Odoshi PJ</AnchorLink>

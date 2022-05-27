@@ -27,12 +27,9 @@ const gallery = () => {
     };
 
     const items = [
-        { title: "001", img: girl1 },
-        { title: "002", img: girl2 },
-        { title: "003", img: girl3 },
-        { title: "004", img: girl4 },
-        { title: "005", img: girl5 },
-        { title: "006", img: girl6 },
+        { title: "000", img: girl7 },
+        { title: "001", img: girl9 },
+        { title: "002", img: girl4 }
     ]
     return (
         <div className='gallery-container' id='gallery-container'>
