@@ -23,7 +23,7 @@ export default function Content() {
             >
               <h1 className='content1'>What is Odoshi</h1>
               <h2 className='content2'>
-                縅を持つ少年・少女が世界の謎を解き明かすべく、妖怪と戦う
+                縅を持つ少年・少女が世界の謎を解き明かす。
               </h2>
               <p>この世界はたくさんの文明に分かれています。</p>
               <p>すでに体現しているのは、月・雲・波の属性です。</p>
