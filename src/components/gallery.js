@@ -2,16 +2,9 @@ import React from 'react';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import girl1 from '../public/girl1.jpg';
-import girl2 from '../public/girl2.jpg';
-import girl3 from '../public/girl3.jpg';
 import girl4 from '../public/girl4.jpg';
-import girl5 from '../public/girl5.jpg';
-import girl6 from '../public/girl6.jpg';
 import girl7 from '../public/girl7.jpg';
-import girl8 from '../public/girl8.jpg';
 import girl9 from '../public/girl9.jpg';
-import girl10 from '../public/girl10.jpg';
 
 import '../styles/gallery.css';
 import '../styles/App.css';

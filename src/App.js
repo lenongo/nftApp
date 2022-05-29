@@ -2,9 +2,7 @@ import './styles/App.css';
 import Header from './components/header.js';
 import Gallery from './components/gallery.js';
 import Content from './components/content.js';
-import Roadmap from './components/roadmap.js';
 import Team from './components/team.js';
-import Footer from './components/footer.js';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import React from 'react'
 import AnchorLink from 'react-anchor-link-smooth-scroll';
