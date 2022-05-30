@@ -6,11 +6,11 @@ import Icon4 from '../public/girl102.jpg';
 import Icon5 from '../public/girl103.jpg';
 import Icon6 from '../public/girl104.jpg';
 import BG1 from '../public/background.jpeg';
-import BG2 from '../public/background.jpeg';
-import BG3 from '../public/background.jpeg';
-import BG4 from '../public/background.jpeg';
-import BG5 from '../public/background.jpeg';
-import BG6 from '../public/background.jpeg';
+import BG2 from '../public/background1.jpg';
+import BG3 from '../public/background2.jpg';
+import BG4 from '../public/background3.jpg';
+import BG5 from '../public/background4.jpg';
+import BG6 from '../public/background5.jpg';
 import '../styles/team.css';
 import '../styles/App.css';
 
@@ -53,7 +53,7 @@ const team = () => {
                     <figcaption>
                         <img src={Icon4} alt="profile" className='profile' />
                         <h2>宇和野そら<span>Creator</span></h2>
-                        <p>I create the world of the Cloud. Thank you!</p>
+                        <p>I create the world of the Cloud. Thank you! Please Follow me.</p>
                         <a href='https://twitter.com/uwano5884' className='follow'>Twitter</a>
                     </figcaption>
                 </figure>
@@ -63,14 +63,14 @@ const team = () => {
                         <img src={Icon5} alt="profile" className='profile' />
                         <h2>わびさび<span>Manager</span></h2>
                         <p>I manage this Project and create some movie contents!</p>
-                        <a href='https://twitter.com/j8uE31bufIrSBZe' className='follow'>Twitter</a>
+                        <a href='https://twitter.com/wabisabi_odoshi' className='follow'>Twitter</a>
                     </figcaption>
                 </figure>
                 <figure className='snip1336 2'>
                     <img src={BG6} alt="back" />
                     <figcaption>
                         <img src={Icon6} alt="profile" className='profile' />
-                        <h2>かまりょー<span>Enginner</span></h2>
+                        <h2>かまりょー<span>Manager</span></h2>
                         <p>I manage this Project!</p>
                         <a href='https://twitter.com/RyoKamata' className='follow'>Twitter</a>
                     </figcaption>
